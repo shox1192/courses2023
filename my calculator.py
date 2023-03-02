@@ -16,6 +16,17 @@ class Calculator():
         return c
 
 if __name__ == '__main__':
-    Calculator().multiply(5, 2)
+    sum = Calculator().sum
+    sum(5, 2)
+
+    sub = Calculator().substraction
+    sub(5, 2)
+
+    mult = Calculator().multiply
+    mult(5,2)
+
+    div = Calculator().divide
+    div(5, 2)
+
 
 
